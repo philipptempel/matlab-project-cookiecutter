@@ -1,0 +1,3 @@
+import pathlib as pl
+
+license_file = pl.Path.cwd() / 'licenses' 
