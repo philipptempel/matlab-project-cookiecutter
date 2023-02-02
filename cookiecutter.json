@@ -1,0 +1,9 @@
+{
+    "project_name": "Project Name",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author_name": "Your name (or your company/organization/team)",
+    "description": "A short description of your project.",
+    "license": ["ASL", "BSD2", "BSD3", "ISC", "MIT", "MPL", "AGPL_3.0+", "GPL-2.0+", "GPL-3.0+", "LGPL-3.0+", "LGPL-2.1+", "EUPL-1.2+"],
+    "version": "0.1.0",
+    "_extensions": ["cookiecutter.extensions.UUIDExtension", "cookiecutter.extensions.SlugifyExtension"]
+}
