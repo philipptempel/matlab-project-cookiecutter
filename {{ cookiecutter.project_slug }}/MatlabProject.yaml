@@ -1,0 +1,10 @@
+name: {% cookiecutter.author_name | slugify %}/{{ cookiecutter.project_slug }}
+uuid: {{ uuid4() }}
+version: {{ cookiecutter.version }}
+license: {{ cookiecutter.license }}
+description: {{ cookiecutter.description }}
+readme: README.md
+authors: [ {{ cookiecutter.author_name }} ]
+autoload: []
+startup: []
+finish: []
